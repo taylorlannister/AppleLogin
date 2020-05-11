@@ -15,6 +15,7 @@
 		BD5F4405246925E1000F9DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5F4403246925E1000F9DBF /* LaunchScreen.storyboard */; };
 		BD5F4410246925E1000F9DBF /* AppleLoginDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F440F246925E1000F9DBF /* AppleLoginDemoTests.swift */; };
 		BD5F441B246925E1000F9DBF /* AppleLoginDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F441A246925E1000F9DBF /* AppleLoginDemoUITests.swift */; };
+		BD5F4432246939CA000F9DBF /* AppleLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5F4431246939CA000F9DBF /* AppleLoginManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BD5F4416246925E1000F9DBF /* AppleLoginDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleLoginDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5F441A246925E1000F9DBF /* AppleLoginDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleLoginDemoUITests.swift; sourceTree = "<group>"; };
 		BD5F441C246925E1000F9DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5F4431246939CA000F9DBF /* AppleLoginManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleLoginManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				BD5F43F8246925DF000F9DBF /* AppDelegate.swift */,
 				BD5F43FA246925DF000F9DBF /* SceneDelegate.swift */,
 				BD5F43FC246925DF000F9DBF /* ViewController.swift */,
+				BD5F4431246939CA000F9DBF /* AppleLoginManager.swift */,
 				BD5F43FE246925DF000F9DBF /* Main.storyboard */,
 				BD5F4401246925E1000F9DBF /* Assets.xcassets */,
 				BD5F4403246925E1000F9DBF /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5F4432246939CA000F9DBF /* AppleLoginManager.swift in Sources */,
 				BD5F43FD246925DF000F9DBF /* ViewController.swift in Sources */,
 				BD5F43F9246925DF000F9DBF /* AppDelegate.swift in Sources */,
 				BD5F43FB246925DF000F9DBF /* SceneDelegate.swift in Sources */,
